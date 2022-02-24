@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /getir-app
+
+spring:
+  application:
+    name: getir-app
+  data:
+    mongodb:
+      database: GetirBook
+      port: 27017
+      host: localhost
+
+jwt:
+  secret: getir
